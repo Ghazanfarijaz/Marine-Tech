@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import logo from "../assets/logo.svg";
 import logodark from "../assets/logo-black.png";
+import logowhite from "../assets/logo-white.png";
 
 const Navbar = ({ scrollToSection, scrollPosition }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = ({ scrollToSection, scrollPosition }) => {
       <div className="container navbar-container">
         <div className="navbar-logo">
           <img
-            src={logodark}
+            src={logowhite}
             alt="TechWave Solutions"
             onClick={() => handleNavClick("home")}
           />
