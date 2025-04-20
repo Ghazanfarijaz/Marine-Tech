@@ -51,7 +51,7 @@ const Navbar = ({ scrollToSection, scrollPosition }) => {
         </nav>
       </div>
       
-      <style jsx>{`
+      <style jsx="true">{`
         .navbar {
           position: fixed;
           top: 0;

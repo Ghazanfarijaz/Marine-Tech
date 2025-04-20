@@ -44,7 +44,7 @@ const Hero = ({ scrollToSection }) => {
       </div>
       <div className="hero-wave"></div>
 
-      <style jsx>{`
+      <style jsx="true">{`
         .hero {
           min-height: 100vh;
           display: flex;

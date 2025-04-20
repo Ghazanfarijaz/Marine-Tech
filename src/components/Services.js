@@ -74,7 +74,7 @@ const Services = () => {
         </div>
       </div>
       
-      <style jsx>{`
+      <style jsx="true">{`
         .services {
           background-color: var(--gray-light);
           position: relative;

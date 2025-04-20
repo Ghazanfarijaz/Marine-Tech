@@ -19,7 +19,7 @@ const ServiceCard = ({ service }) => {
         Learn More <i className="fas fa-arrow-right"></i>
       </a>
       
-      <style jsx>{`
+      <style jsx="true">{`
         .service-card {
           background-color: var(--white);
           padding: 2.5rem;
