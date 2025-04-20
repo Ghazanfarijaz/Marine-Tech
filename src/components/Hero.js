@@ -1,5 +1,5 @@
-import React from 'react';
-import Button from './Button';
+import React from "react";
+import Button from "./Button";
 
 const Hero = ({ scrollToSection }) => {
   return (
@@ -11,18 +11,18 @@ const Hero = ({ scrollToSection }) => {
             for a <span className="text-highlight">Digital Future</span>
           </h1>
           <p className="hero-subtitle">
-            We build cutting-edge digital products and services that
-            transform businesses and drive growth in the digital era.
+            We build cutting-edge digital products and services that transform
+            businesses and drive growth in the digital era.
           </p>
           <div className="hero-buttons">
-            <Button 
-              text="Our Services" 
-              onClick={() => scrollToSection('services')} 
+            <Button
+              text="Our Services"
+              onClick={() => scrollToSection("services")}
               className="btn-large"
             />
-            <Button 
-              text="Contact Us" 
-              onClick={() => scrollToSection('contact')} 
+            <Button
+              text="Contact Us"
+              onClick={() => scrollToSection("contact")}
               className="btn-large btn-outline"
             />
           </div>
@@ -46,21 +46,26 @@ const Hero = ({ scrollToSection }) => {
 
       <style jsx="true">{`
         .hero {
+          margin-top: 1.5rem;
           min-height: 100vh;
           display: flex;
           align-items: center;
           position: relative;
-          background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+          background: linear-gradient(
+            135deg,
+            var(--primary-dark),
+            var(--primary)
+          );
           color: var(--white);
           padding-top: 80px;
           overflow: hidden;
         }
-        
+
         .hero-content {
           max-width: 700px;
           margin-bottom: 4rem;
         }
-        
+
         .hero-title {
           font-size: 3.5rem;
           font-weight: 700;
@@ -69,15 +74,15 @@ const Hero = ({ scrollToSection }) => {
           color: var(--white);
           animation: fadeInUp 1s ease-out;
         }
-        
+
         .text-highlight {
           color: var(--accent);
           position: relative;
           display: inline-block;
         }
-        
+
         .text-highlight::after {
-          content: '';
+          content: "";
           position: absolute;
           width: 100%;
           height: 10px;
@@ -87,7 +92,7 @@ const Hero = ({ scrollToSection }) => {
           z-index: -1;
           border-radius: 10px;
         }
-        
+
         .hero-subtitle {
           font-size: 1.2rem;
           margin-bottom: 2.5rem;
@@ -96,39 +101,40 @@ const Hero = ({ scrollToSection }) => {
           animation: fadeInUp 1s ease-out 0.2s;
           animation-fill-mode: both;
         }
-        
+
         .hero-buttons {
           display: flex;
           gap: 1rem;
           animation: fadeInUp 1s ease-out 0.4s;
           animation-fill-mode: both;
         }
-        
+
         .hero-stats {
           display: flex;
           justify-content: flex-start;
           gap: 4rem;
           animation: fadeInUp 1s ease-out 0.6s;
           animation-fill-mode: both;
+          margin-bottom: 4rem;
         }
-        
+
         .stat-item {
           display: flex;
           flex-direction: column;
         }
-        
+
         .stat-number {
           font-size: 2.5rem;
           font-weight: 700;
           color: var(--accent);
           margin-bottom: 0.25rem;
         }
-        
+
         .stat-text {
           font-size: 1rem;
           color: var(--text-light);
         }
-        
+
         .hero-wave {
           position: absolute;
           bottom: 0;
@@ -139,7 +145,7 @@ const Hero = ({ scrollToSection }) => {
           background-size: cover;
           background-repeat: no-repeat;
         }
-        
+
         @keyframes fadeInUp {
           from {
             opacity: 0;
@@ -150,35 +156,35 @@ const Hero = ({ scrollToSection }) => {
             transform: translateY(0);
           }
         }
-        
+
         @media (max-width: 992px) {
           .hero-title {
             font-size: 2.8rem;
           }
-          
+
           .hero-stats {
             gap: 2rem;
           }
         }
-        
+
         @media (max-width: 768px) {
           .hero-title {
             font-size: 2.2rem;
           }
-          
+
           .hero-subtitle {
             font-size: 1.1rem;
           }
-          
+
           .hero-buttons {
             flex-direction: column;
           }
-          
+
           .hero-stats {
             flex-wrap: wrap;
             gap: 1.5rem;
           }
-          
+
           .stat-number {
             font-size: 2rem;
           }

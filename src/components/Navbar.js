@@ -9,7 +9,7 @@ const Navbar = ({ scrollToSection, scrollPosition }) => {
 
   useEffect(() => {
     // Change navbar styling on scroll
-    if (scrollPosition > 100) {
+    if (scrollPosition > 10) {
       setIsScrolled(true);
     } else {
       setIsScrolled(false);
@@ -26,15 +26,17 @@ const Navbar = ({ scrollToSection, scrollPosition }) => {
   };
 
   return (
-    <header className={`navbar ${isScrolled ? "navbar-scrolled" : ""}`}>
+    <header
+      className={`navbar ${isScrolled ? "navbar-scrolled" : "navbar-top"}`}
+    >
       <div className="container navbar-container">
         <div className="navbar-logo">
           <img
-            src={logowhite}
+            src={isScrolled ? logowhite : logodark}
             alt="TechWave Solutions"
             onClick={() => handleNavClick("home")}
           />
-          <h1>TechWave</h1>
+          <h1>Marine Tech</h1>
         </div>
 
         <div className="navbar-toggle" onClick={toggleMenu}>
@@ -93,10 +95,36 @@ const Navbar = ({ scrollToSection, scrollPosition }) => {
           background-color: transparent;
         }
 
+        /* Non-scrolled state styles */
+        .navbar-top .navbar-logo h1 {
+          color: -primary; /* Dark blue color */
+        }
+
+        .navbar-top .navbar-menu a {
+          color: primary; /* Dark blue color */
+        }
+
+        .navbar-top .toggle-icon span {
+          background: #1a237e; /* Dark blue color for hamburger icon */
+        }
+
+        /* Scrolled state styles */
         .navbar-scrolled {
           background-color: var(--primary-dark);
           padding: 1rem 0;
           box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-scrolled .navbar-logo h1 {
+          color: var(--white);
+        }
+
+        .navbar-scrolled .navbar-menu a {
+          color: var(--white);
+        }
+
+        .navbar-scrolled .toggle-icon span {
+          background: var(--white);
         }
 
         .navbar-container {
@@ -120,7 +148,7 @@ const Navbar = ({ scrollToSection, scrollPosition }) => {
           margin: 0;
           font-size: 1.5rem;
           font-weight: 700;
-          color: var(--white);
+          transition: color 0.3s ease;
         }
 
         .navbar-menu ul {
@@ -133,10 +161,10 @@ const Navbar = ({ scrollToSection, scrollPosition }) => {
         }
 
         .navbar-menu a {
-          color: var(--white);
           font-weight: 500;
           position: relative;
           padding: 0.5rem 0;
+          transition: color 0.3s ease;
         }
 
         .navbar-menu a::after {
@@ -171,7 +199,6 @@ const Navbar = ({ scrollToSection, scrollPosition }) => {
           position: absolute;
           height: 3px;
           width: 100%;
-          background: var(--white);
           border-radius: 3px;
           opacity: 1;
           left: 0;
@@ -238,6 +265,16 @@ const Navbar = ({ scrollToSection, scrollPosition }) => {
           .navbar-menu a {
             display: block;
             font-size: 1.1rem;
+            color: var(--white) !important;
+          }
+
+          .navbar-top .navbar-menu {
+            background-color: var(--white);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+          }
+
+          .navbar-top .navbar-menu a {
+            color: #1a237e !important;
           }
         }
       `}</style>
