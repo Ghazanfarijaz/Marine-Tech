@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import logo from "../assets/logo.svg";
-import logodark from "../assets/logo-black.png";
-import logowhite from "../assets/logo-white.png";
+import logodark from "../assets/bg-logo-black.png";
+import logowhite from "../assets/bg-logo-white.png";
 
 const Navbar = ({ scrollToSection, scrollPosition }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
