@@ -33,7 +33,7 @@ const Navbar = ({ scrollToSection, scrollPosition }) => {
         <div className="navbar-logo">
           <img
             src={isScrolled ? logowhite : logodark}
-            alt="TechWave Solutions"
+            alt="Marine Technologies Solutions"
             onClick={() => handleNavClick("home")}
           />
           <h1>Marine Tech</h1>
