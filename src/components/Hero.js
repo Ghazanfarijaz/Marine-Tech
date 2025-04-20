@@ -158,6 +158,9 @@ const Hero = ({ scrollToSection }) => {
         }
 
         @media (max-width: 992px) {
+          .hero {
+            margin-top: 40px;
+          }
           .hero-title {
             font-size: 2.8rem;
           }
@@ -168,6 +171,9 @@ const Hero = ({ scrollToSection }) => {
         }
 
         @media (max-width: 768px) {
+          .hero {
+            margin-top: 40px;
+          }
           .hero-title {
             font-size: 2.2rem;
           }

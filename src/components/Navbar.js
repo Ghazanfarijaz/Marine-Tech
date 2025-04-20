@@ -101,11 +101,11 @@ const Navbar = ({ scrollToSection, scrollPosition }) => {
         }
 
         .navbar-top .navbar-menu a {
-          color: primary; /* Dark blue color */
+          color: -primary; /* Dark blue color */
         }
 
         .navbar-top .toggle-icon span {
-          background: #1a237e; /* Dark blue color for hamburger icon */
+          background: -primary; /* Dark blue color for hamburger icon */
         }
 
         /* Scrolled state styles */
