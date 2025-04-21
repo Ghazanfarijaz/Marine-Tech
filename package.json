@@ -4,9 +4,9 @@
   "main": "index.js",
   "scripts": {
     "prettier": "prettier --write .",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "keywords": [],
@@ -14,8 +14,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.3",
+    "@craco/craco": "^7.1.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "^5.0.1",
@@ -34,7 +33,8 @@
     ]
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
     "tailwindcss": "^4.1.4"
   }
 }
