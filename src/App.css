@@ -1,4 +1,8 @@
 /* Base styles and variables */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   /* Marine color palette */
   --primary-dark: #004466;
