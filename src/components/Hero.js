@@ -107,6 +107,7 @@ const Hero = ({ scrollToSection }) => {
           gap: 1rem;
           animation: fadeInUp 1s ease-out 0.4s;
           animation-fill-mode: both;
+          color: rgba(255, 255, 255, 0.3);
         }
 
         .hero-stats {

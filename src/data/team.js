@@ -9,6 +9,8 @@ export const team = [
       twitter: "#",
       github: "#",
     },
+    profile:
+      "https://res.cloudinary.com/dnfc9g33c/image/upload/t_Profile/v1745201434/jezzi1212_xp5tyn.png",
   },
   {
     name: "Afraz Ahmed",
@@ -20,6 +22,8 @@ export const team = [
       twitter: "#",
       github: "#",
     },
+    profile:
+      "https://res.cloudinary.com/dnfc9g33c/image/upload/v1745200569/qwe12122_bl2oay.jpg",
   },
   {
     name: "Faizan Javed",
@@ -31,6 +35,8 @@ export const team = [
       twitter: "#",
       github: "#",
     },
+    profile:
+      "https://res.cloudinary.com/dnfc9g33c/image/upload/v1745200903/faizanjaved_lco2sd.png",
   },
   {
     name: "Zaryab Hassan",
@@ -42,6 +48,8 @@ export const team = [
       twitter: "#",
       github: "#",
     },
+    profile:
+      "https://res.cloudinary.com/dnfc9g33c/image/upload/v1745200904/zaryab123_haxo1d.png",
   },
   {
     name: "Jessica Rivera",
@@ -53,6 +61,8 @@ export const team = [
       twitter: "#",
       github: "#",
     },
+    profile:
+      "https://res.cloudinary.com/dnfc9g33c/image/upload/v1731416098/OIP_kxjlsd.jpg",
   },
   {
     name: "David Kim",
@@ -64,6 +74,8 @@ export const team = [
       twitter: "#",
       github: "#",
     },
+    profile:
+      "https://res.cloudinary.com/dnfc9g33c/image/upload/v1731416098/OIP_kxjlsd.jpg",
   },
   {
     name: "Aisha Patel",
@@ -75,6 +87,8 @@ export const team = [
       twitter: "#",
       github: "#",
     },
+    profile:
+      "https://res.cloudinary.com/dnfc9g33c/image/upload/v1731416098/OIP_kxjlsd.jpg",
   },
   {
     name: "James Wilson",
@@ -86,6 +100,8 @@ export const team = [
       twitter: "#",
       github: "#",
     },
+    profile:
+      "https://res.cloudinary.com/dnfc9g33c/image/upload/v1731416098/OIP_kxjlsd.jpg",
   },
   {
     name: "Emily Taylor",
@@ -96,6 +112,8 @@ export const team = [
       linkedin: "#",
       twitter: "#",
     },
+    profile:
+      "https://res.cloudinary.com/dnfc9g33c/image/upload/v1731416098/OIP_kxjlsd.jpg",
   },
   {
     name: "Robert Garcia",
@@ -106,5 +124,7 @@ export const team = [
       linkedin: "#",
       twitter: "#",
     },
+    profile:
+      "https://res.cloudinary.com/dnfc9g33c/image/upload/v1731416098/OIP_kxjlsd.jpg",
   },
 ];
