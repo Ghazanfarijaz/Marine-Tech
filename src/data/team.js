@@ -1,25 +1,47 @@
 export const team = [
   {
-    name: "Sarah Johnson",
+    name: "M Ghazanfar Ijaz",
     position: "CEO & Founder",
     category: "leadership",
-    bio: "With over 15 years of tech industry experience, Sarah leads our vision and strategy with passion and innovation.",
+    bio: "With over 5 years of tech industry experience, Ghazanfar leads our vision and strategy with passion and innovation.",
     social: {
       linkedin: "#",
       twitter: "#",
-      github: "#"
-    }
+      github: "#",
+    },
   },
   {
-    name: "Michael Chen",
-    position: "CTO",
+    name: "Afraz Ahmed",
+    position: "CTO & Co-Founder",
     category: "leadership",
-    bio: "Michael brings deep technical expertise and leadership to guide our engineering teams and technology direction.",
+    bio: "Afraz Ahmed brings deep technical expertise and leadership to guide our engineering teams and technology direction.",
     social: {
       linkedin: "#",
       twitter: "#",
-      github: "#"
-    }
+      github: "#",
+    },
+  },
+  {
+    name: "Faizan Javed",
+    position: "COO & Co-Founder",
+    category: "leadership",
+    bio: "Faizan Javed oversees company operations and ensures strategic alignment across teams, driving performance and growth with a strong operational vision.",
+    social: {
+      linkedin: "#",
+      twitter: "#",
+      github: "#",
+    },
+  },
+  {
+    name: "Zaryab Hassan",
+    position: "Co-Founder & Head of Technology",
+    category: "leadership",
+    bio: "Zaryab Hassan leads our technological initiatives, driving innovation and scaling systems architecture to meet evolving product demands.",
+    social: {
+      linkedin: "#",
+      twitter: "#",
+      github: "#",
+    },
   },
   {
     name: "Jessica Rivera",
@@ -29,8 +51,8 @@ export const team = [
     social: {
       linkedin: "#",
       twitter: "#",
-      github: "#"
-    }
+      github: "#",
+    },
   },
   {
     name: "David Kim",
@@ -40,8 +62,8 @@ export const team = [
     social: {
       linkedin: "#",
       twitter: "#",
-      github: "#"
-    }
+      github: "#",
+    },
   },
   {
     name: "Aisha Patel",
@@ -51,8 +73,8 @@ export const team = [
     social: {
       linkedin: "#",
       twitter: "#",
-      github: "#"
-    }
+      github: "#",
+    },
   },
   {
     name: "James Wilson",
@@ -62,8 +84,8 @@ export const team = [
     social: {
       linkedin: "#",
       twitter: "#",
-      github: "#"
-    }
+      github: "#",
+    },
   },
   {
     name: "Emily Taylor",
@@ -72,8 +94,8 @@ export const team = [
     bio: "Emily develops and executes data-driven marketing strategies that elevate brands and drive business growth.",
     social: {
       linkedin: "#",
-      twitter: "#"
-    }
+      twitter: "#",
+    },
   },
   {
     name: "Robert Garcia",
@@ -82,7 +104,7 @@ export const team = [
     bio: "Robert ensures projects are delivered on time and to the highest quality standards through effective team coordination.",
     social: {
       linkedin: "#",
-      twitter: "#"
-    }
-  }
+      twitter: "#",
+    },
+  },
 ];
