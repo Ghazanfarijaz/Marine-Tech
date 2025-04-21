@@ -1,7 +1,7 @@
 export const team = [
   {
     name: "M Ghazanfar Ijaz",
-    position: "CEO & Founder",
+    position: "Chief Executive Officer",
     category: "leadership",
     bio: "With over 5 years of tech industry experience, Ghazanfar leads our vision and strategy with passion and innovation.",
     social: {
@@ -14,7 +14,7 @@ export const team = [
   },
   {
     name: "Afraz Ahmed",
-    position: "CTO & Co-Founder",
+    position: "Chief Technology Officer",
     category: "leadership",
     bio: "Afraz Ahmed brings deep technical expertise and leadership to guide our engineering teams and technology direction.",
     social: {
@@ -27,7 +27,7 @@ export const team = [
   },
   {
     name: "Faizan Javed",
-    position: "COO & Co-Founder",
+    position: "Chief Operating Officer",
     category: "leadership",
     bio: "Faizan Javed oversees company operations and ensures strategic alignment across teams, driving performance and growth with a strong operational vision.",
     social: {
@@ -40,7 +40,7 @@ export const team = [
   },
   {
     name: "Zaryab Hassan",
-    position: "Co-Founder & Head of Technology",
+    position: "Chief Financial Officer",
     category: "leadership",
     bio: "Zaryab Hassan leads our technological initiatives, driving innovation and scaling systems architecture to meet evolving product demands.",
     social: {
@@ -51,6 +51,20 @@ export const team = [
     profile:
       "https://res.cloudinary.com/dnfc9g33c/image/upload/v1745200904/zaryab123_haxo1d.png",
   },
+  // {
+  //   name: "Ali Hamza Azam",
+  //   position: "Chief Information Officer",
+  //   category: "leadership",
+  //   bio: "Ali Hamza Azam is a seasoned project manager with a knack for delivering projects on time and within budget, ensuring client satisfaction.",
+  //   bio: "Jessica creates exceptional user experiences that blend aesthetics with functionality and user-centered design.",
+  //   social: {
+  //     linkedin: "#",
+  //     twitter: "#",
+  //     github: "#",
+  //   },
+  //   profile:
+  //     "  https://res.cloudinary.com/dnfc9g33c/image/upload/t_Profile/v1745207658/hamza-removebg-preview_nxhqjf.png",
+  // },
   {
     name: "Jessica Rivera",
     position: "Lead UX Designer",
